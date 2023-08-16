@@ -24,7 +24,7 @@ services:
       #- ${PWD}/temas/SUITE_ADOBE_ori.zip:/var/www/html/wp-content/themes/suite.zip #Test
 #Fin Nueva Linea proyectos
 #Inicio para almacenar plugins fuera del contenedor
-      - ${PWD}/plugins/:/var/www/html/wp-content/plugins/
+      #- ${PWD}/plugins/:/var/www/html/wp-content/plugins/
 #Fin
 #Inicio para almacenar archivos multimedia fuera del contenedor y luego mapearlo
       - ${PWD}/multimedia:/var/www/html/wp-content/uploads
